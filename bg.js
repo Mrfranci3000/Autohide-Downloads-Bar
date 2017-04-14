@@ -18,6 +18,9 @@ function initialize_stuff() {
       console.log("delayTimer", delayTimer.delayTimerSaved);
       dTimer = delayTimer.delayTimerSaved;
 	  console.log("dTimer", dTimer);
+	  if (isNaN(dTimer)){
+		  dTimer = 6500 //defaults to 6500 if NaN
+	  }
 	});
   return dTimer;
 };
