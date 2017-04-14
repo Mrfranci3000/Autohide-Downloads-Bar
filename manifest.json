@@ -3,7 +3,7 @@
 
   "name": "Autohide Downloads Bar",
   "description": "This extension closes the downloads bar after a set amount of time",
-  "version": "1.0",
+  "version": "1.1",
   "options_page": "options.html",
 
 
