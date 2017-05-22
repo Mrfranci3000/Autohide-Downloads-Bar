@@ -21,6 +21,10 @@ function initialize_stuff() {
 	  if (isNaN(dTimer)){
 		  dTimer = 6500 //defaults to 6500 if NaN
 	  }
+	  chrome.storage.sync.set({'delayTimerSaved': dTimer}, function() {
+          // Notify that we saved.
+          console.log('dTimer Saved: ', dTimer);
+		  });
 	});
   return dTimer;
 };
