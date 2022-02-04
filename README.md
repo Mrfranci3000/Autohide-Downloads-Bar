@@ -1,3 +1,5 @@
+Download master.zip
+
 Visit chrome://extensions
 
 Enable Developer mode by ticking the checkbox in the upper-right corner.
