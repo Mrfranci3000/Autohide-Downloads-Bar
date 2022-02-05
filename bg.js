@@ -47,7 +47,7 @@ chrome.downloads.onChanged.addListener(function (e) {
 	}
 });
 
-//recieve message from option.js if the timer is updated
+//receive message from option.js if the timer is updated
 chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
     console.log(sender.tab ?
