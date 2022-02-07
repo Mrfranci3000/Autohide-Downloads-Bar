@@ -13,7 +13,7 @@ function save_options() {
 		//send the new saved options
 		chrome.runtime.sendMessage({greeting: delayTimer}, function(response) {});	
 
-		//sets the text back after 3 second
+		//sets the text back after 3 seconds
 		setTimeout(function() {
 		  status.textContent = 'Save';
 		}, 3000);
