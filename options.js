@@ -26,7 +26,7 @@ function restore_options() {
     chrome.storage.sync.get("delayTimerSaved", function(delayTimer) {
       console.log("delayTimer loaded:", delayTimer);
 	  if (isNaN(delayTimer.delayTimerSaved)){
-		  document.getElementById('delayTimer').value = 6500 //defaults to 6500 if NaN
+		  document.getElementById('delayTimer').value = 1000 //defaults to 1000 if NaN
 	  }
 	  else{
         document.getElementById('delayTimer').value = delayTimer.delayTimerSaved;
